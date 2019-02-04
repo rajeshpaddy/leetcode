@@ -2,7 +2,7 @@
 
 namespace LeetCode_ReverseInteger
 {
-    class Program
+    public class ReverseInteger
     {
         static void Main(string[] args)
         {
@@ -11,7 +11,7 @@ namespace LeetCode_ReverseInteger
             Console.Read();
         }
 
-        static int Reverse(int x)
+        public static int Reverse(int x)
         {
             int sign = 1;
             //System.Collections.Stack stck = new System.Collections.Stack();
