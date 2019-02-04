@@ -10,9 +10,23 @@ namespace LeetCode_AddTwoNumbers
       public ListNode next;
       public ListNode(int x) { val = x; }
      }
+
+        static ListNode NumberToNode(int number)
+        {
+            ListNode headnode = new ListNode(0);
+            ListNode travelnode = headnode;
+            foreach (char c in number.ToString().ToCharArray())
+            {
+                travelnode.val = Convert.ToInt32(c.ToString());
+                travelnode.next = new ListNode(0);
+                travelnode=travelnode.next;
+            }
+            return headnode;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! test ter");
+            ListNode finalnode = AddTwoNumbers(NumberToNode(321),NumberToNode(432));
 
         }
         static ListNode AddTwoNumbers(ListNode l1, ListNode l2)

@@ -8,6 +8,7 @@ namespace LeedCode_LongestSubstring
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            
         }
 
         static int LengthOfLongestSubstring(string s)

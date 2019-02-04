@@ -7,9 +7,9 @@ namespace LeetCode_Sum
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World! test 123");
             int[] element = TwoSum(new int[] { 2, 3, 4, 5 }, 7);
-            Console.Write("The two elements are {0},{1}", element.GetValue(0),element.GetValue(1) );
+            Console.WriteLine("The two elements are {0},{1}", element.GetValue(0),element.GetValue(1) );
         }
 
         static int[] TwoSum(int[] nums, int target)
