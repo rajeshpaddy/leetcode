@@ -1,9 +1,8 @@
 using System;
 using Xunit;
 using LeetCode_ReverseInteger;
-namespace Leetcode_TestReverseInteger
-{
-    public class ReverseIntegerUnitTests
+namespace Leetcode_Test { 
+public class ReverseIntegerUnitTests
     {
         [Fact]
         public void PostiveNumber()
