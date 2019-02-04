@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "LeetCode-ReverseInteger/LeetCode-ReverseInteger.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

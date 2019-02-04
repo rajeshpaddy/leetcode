@@ -4,14 +4,51 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "name": ".NET Core Launch (console)",
+            "name": "LongestSubstring",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/LeedCode-LongestSubstring/bin/Debug/netcoreapp2.1/LeedCode-LongestSubstring.dll",
             "args": [],
             "cwd": "${workspaceFolder}/LeedCode-LongestSubstring",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "AddTwoNumbers",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/LeetCode-Sum/bin/Debug/netcoreapp2.1/LeetCode-AddTwoNumbers.dll", 
+            "args": [],
+            "cwd": "${workspaceFolder}/LeetCode-AddTwoNumbers",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "ReverseInteger",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/LeetCode-Sum/bin/Debug/netcoreapp2.1/LeetCode-ReverseInteger.dll", 
+            "args": [],
+            "cwd": "${workspaceFolder}/LeetCode-ReverseInteger",
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "TwoSum",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/LeetCode-Sum/bin/Debug/netcoreapp2.1/LeetCode-Sum.dll", 
+            "args": [],
+            "cwd": "${workspaceFolder}/LeetCode-Sum",
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
