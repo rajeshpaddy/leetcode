@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>Leetcode_TestReverseInteger</RootNamespace>
+    <RootNamespace>Leetcode_Test</RootNamespace>
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
