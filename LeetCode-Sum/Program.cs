@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LeetCode_Sum
 {
@@ -7,6 +8,27 @@ namespace LeetCode_Sum
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            int[] element = TwoSum(new int[] { 2, 3, 4, 5 }, 7);
+            Console.Write("The two elements are {0},{1}", element.GetValue(0),element.GetValue(1) );
+        }
+
+        static int[] TwoSum(int[] nums, int target)
+        {
+            Dictionary<int, int> dictionary = new Dictionary<int, int>();
+            int i = 0;
+            int[] returnResult = null;
+            for (i = 0; i < nums.Length; i++)
+            {
+                int matchtoFind = target - nums[i];
+                if (dictionary.ContainsKey(matchtoFind))
+                {
+                    return new int[] { dictionary[matchtoFind], i };
+                }
+                if (!dictionary.ContainsKey(nums[i]))
+                    dictionary.Add(nums[i], i);
+
+            }
+            return returnResult;
         }
     }
 }
