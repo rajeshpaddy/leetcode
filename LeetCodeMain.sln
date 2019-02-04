@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode-Sum", "LeetCode-Sum\LeetCode-Sum.csproj", "{2B2C032A-E88E-4BBC-A022-544BC6DBD776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode-AddTwoNumbers", "LeetCode-AddTwoNumbers\LeetCode-AddTwoNumbers.csproj", "{F1F93346-BC97-4A6C-A28B-C0868BEAC16D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeedCode-LongestSubstring", "LeedCode-LongestSubstring\LeedCode-LongestSubstring.csproj", "{E2861352-2EC9-4AEB-BFB9-67E760B30149}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{2B2C032A-E88E-4BBC-A022-544BC6DBD776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B2C032A-E88E-4BBC-A022-544BC6DBD776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B2C032A-E88E-4BBC-A022-544BC6DBD776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F93346-BC97-4A6C-A28B-C0868BEAC16D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F93346-BC97-4A6C-A28B-C0868BEAC16D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F93346-BC97-4A6C-A28B-C0868BEAC16D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F93346-BC97-4A6C-A28B-C0868BEAC16D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2861352-2EC9-4AEB-BFB9-67E760B30149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2861352-2EC9-4AEB-BFB9-67E760B30149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2861352-2EC9-4AEB-BFB9-67E760B30149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2861352-2EC9-4AEB-BFB9-67E760B30149}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
