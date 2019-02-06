@@ -5,7 +5,7 @@ namespace Leetcode_Test
     {
         public CircularQueueTest()
         {
-
+            int test;
         }
     }
 }
