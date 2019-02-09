@@ -3,6 +3,8 @@ using Tweetinvi;
 using SimpleThinker.CommonCode;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace ExploreTwitterAPI
 {
@@ -10,9 +12,22 @@ namespace ExploreTwitterAPI
     {
         static void Main(string[] args)
         {
-        	//The Key has been revoked 
-        	//TODO  Sleeping looks like :) , the secrets will be moved to an ennrypted files wJjfwD2fHwMPMh9paXePWst5XHFa8FqdB7Bj0lY", "pIvqvlPxePiyMhNLe6QbXeEZhJupyE3nLFCGdlP9ZJBFz");
-            //Tweetinvi.Tweet.PublishTweet("SensingApp:Still waiting for the snow (or not waiting :()");
+            var builder = new ConfigurationBuilder()
+                 .SetBasePath(Directory.GetCurrentDirectory())
+                 .AddJsonFile("appsettings.json")
+                 .AddJsonFile("appsecrets.json");
+
+            IConfiguration config = new ConfigurationBuilder()
+                .AddJsonFile("appsettings.json", true, true)
+                .AddJsonFile("appsecrets.json")
+                .Build();
+            //Console.Read();
+            //The Key has been revoked 
+            //TODO  Sleeping looks like :) , the secrets will be moved to an ennrypted files 
+            Auth.SetUserCredentials(config["TwitterAuthConfig:consumerKey"],
+                config["TwitterAuthConfig:consumerSecret"],
+            config["TwitterAuthConfig:userAccessToken"], config["TwitterAuthConfig:userAccessSecret"]);
+            //Tweetinvi.Tweet.PublishTweet("SensingApp:Snowed in)");
             //var authenticatedUser = User.GetAuthenticatedUser();
             //var tweets = Timeline.GetUserTimeline();
             var usertimeline = from c in Timeline.GetUserTimeline(User.GetUserFromScreenName(args[0]).Id) orderby c.CreatedAt ascending select c;
@@ -23,38 +38,10 @@ namespace ExploreTwitterAPI
                 Utility.WriteWithColor(tweet.ToString()+ ":" );
 
             }
-            //Console.Read();
+            Console.Read();
         }
 
     
     }
 }
-+ ">>");
-                Utility.WriteWithColor(tweet.ToString()+ ":" );
 
-            }
-            //Console.Read();
-        }
-
-    
-    }
-}
-+ ">>");
-                Utility.WriteWithColor(tweet.ToString()+ ":" );
-
-            }
-            //Console.Read();
-        }
-
-    
-    }
-}
-              Utility.WriteWithColor(tweet.ToString()+ ":" );
-
-            }
-            //Console.Read();
-        }
-
-    
-    }
-}

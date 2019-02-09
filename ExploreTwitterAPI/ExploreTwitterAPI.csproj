@@ -8,5 +8,20 @@
   <ItemGroup>
     <PackageReference Include="TweetinviAPI" Version="4.0.0" />
     <PackageReference Include="SimpleThinker" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.0.0-preview.18572.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="appSettings.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="appsecrets.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 </Project>
