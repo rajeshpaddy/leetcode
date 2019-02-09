@@ -18,7 +18,7 @@
 * This project implements the learning from the queue and stacks on [CircularQueue](https://leetcode.com/explore/featured/card/queue-stack/228/first-in-first-out-data-structure/1337/)
 
 ### LeetCode-ReverseInteger
-* This project implements the accepted solution of the [ReverseInteger](hhttps://leetcode.com/problems/reverse-integer/)
+* This project implements the accepted solution of the [ReverseInteger](https://leetcode.com/problems/reverse-integer/)
 
 ### LeetCode-TwoSum
 * This project implements the accepted solution of the [TwoSum](https://leetcode.com/problems/two-sum/)
