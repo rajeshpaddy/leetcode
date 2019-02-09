@@ -9,7 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeedCode-LongestSubstring",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode-ReverseInteger", "LeetCode-ReverseInteger\LeetCode-ReverseInteger.csproj", "{2C023C8E-FA0F-47C4-A13F-03CAC2750F4F}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Leetcode-Test", "Leetcode-Test\Leetcode-Test.csproj", "{20E7E1A2-A8C0-4533-8B6C-7C57EDB6894C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode-Test", "Leetcode-Test\Leetcode-Test.csproj", "{20E7E1A2-A8C0-4533-8B6C-7C57EDB6894C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode-CircularQueue", "LeetCode-CircularQueue\LeetCode-CircularQueue.csproj", "{EB123848-0160-4F50-A67F-09A77266307D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExploreTwitterAPI", "ExploreTwitterAPI\ExploreTwitterAPI.csproj", "{BF06850A-3C2F-44EB-AD2D-CA5EB8229CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleThinker", "CommonCode\SimpleThinker.csproj", "{8AFF3190-F28C-463C-AC90-08579BFF5358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +43,17 @@ Global
 		{20E7E1A2-A8C0-4533-8B6C-7C57EDB6894C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E7E1A2-A8C0-4533-8B6C-7C57EDB6894C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E7E1A2-A8C0-4533-8B6C-7C57EDB6894C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB123848-0160-4F50-A67F-09A77266307D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB123848-0160-4F50-A67F-09A77266307D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB123848-0160-4F50-A67F-09A77266307D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB123848-0160-4F50-A67F-09A77266307D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF06850A-3C2F-44EB-AD2D-CA5EB8229CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF06850A-3C2F-44EB-AD2D-CA5EB8229CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF06850A-3C2F-44EB-AD2D-CA5EB8229CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF06850A-3C2F-44EB-AD2D-CA5EB8229CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AFF3190-F28C-463C-AC90-08579BFF5358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AFF3190-F28C-463C-AC90-08579BFF5358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AFF3190-F28C-463C-AC90-08579BFF5358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AFF3190-F28C-463C-AC90-08579BFF5358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

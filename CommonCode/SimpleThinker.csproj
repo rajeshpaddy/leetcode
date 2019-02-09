@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Author>Rajesh Padmanabhan</Author>
+    <Description>A library for common code</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageVersion>1.0.2</PackageVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Owners>Rajesh Padmanabhan</Owners>
+    <Summary>DRY (Don't repeat yourself) like code </Summary>
+    <PackageTags>Utility,DRY,Common</PackageTags>
+    <Title>CommonCode</Title>
+    <PackageId>SimpleThinker</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+</Project>
