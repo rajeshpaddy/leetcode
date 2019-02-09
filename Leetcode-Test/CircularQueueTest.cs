@@ -8,9 +8,9 @@ namespace Leetcode_Test
         [Fact]
         public void increaseREARUnitTest()
         {
-<<<<<<< HEAD
+
+
             int test;
-=======
             MyCircularQueue c = new MyCircularQueue(5);
 
 

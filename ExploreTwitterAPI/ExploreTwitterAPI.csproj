@@ -11,14 +11,12 @@
         <Command>
           <type>AfterBuild</type>
           <command>git secret add appsecrets.json</command>
-          <workingdir>/Users/rajesh/VSCode/leetcode/ExploreTwitterAPI</workingdir>
-          <externalConsole>True</externalConsole>
+          <workingdir>${ProjectDir}</workingdir>
         </Command>
         <Command>
           <type>AfterBuild</type>
           <command>git secret hide</command>
-          <workingdir>/Users/rajesh/VSCode/leetcode/ExploreTwitterAPI</workingdir>
-          <externalConsole>True</externalConsole>
+          <workingdir>${ProjectDir}</workingdir>
         </Command>
       </CustomCommands>
     </CustomCommands>
@@ -30,6 +28,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Remove="appSettings.config" />
+    <None Remove="test.info" />
+    <None Remove="test.info.secret" />
   </ItemGroup>
   <ItemGroup>
     <None Update="appsettings.json">

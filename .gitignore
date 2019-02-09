@@ -11,6 +11,7 @@ TestResults/
 Makefile.in
 myprivatekey.asc
 test.info
+appsecrets.json
 *.DS_Store
 *.sln.cache
 *.suo
