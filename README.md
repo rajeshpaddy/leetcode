@@ -1,5 +1,5 @@
 # Leetcode and other problems
-> This project is motivated by my quest for learning and organizing my technical work. My primary mode of learning is by solving leetcode problems. I will be adding all the leetcode solution that I solved here. And as part of solving that what ever common DRY (Don't Repeat Yourself) code that I write, I'm putting that in the SimpleThinker library. Time and again I take on self driven exploration project which I will add to this repo. All the code and learnings in this repo is from my personal time
+> This project is motivated by my quest for learning and organizing my technical work. My primary mode of learning is by solving leetcode problems. Here, I will be adding all the leetcode solution that I solve. And as part of solving what ever common DRY (Don't Repeat Yourself) code that I write, I'm putting that in the SimpleThinker library. Time and again I take on self driven exploration project which I will add to this repo. All the code and learnings in this repo are from my personal time
 
 ## **My Projects**
 ### SimpleThinker
