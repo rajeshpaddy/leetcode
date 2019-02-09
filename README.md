@@ -29,5 +29,5 @@
 ## My development Environment (try to get the latest version)
 > * Mac Mojave 
 > * Visual Studio Community
-> * Visual Studio Code (mainly for Markdown edition and some powerful editing feature, some time I develop my .net core project in Code and it is really fun)
+> * Visual Studio Code (mainly for Markdown editing and some power editing feature, sometimes I develop my .net core project in Code and it is really fun)
 > * Git/Github
