@@ -5,6 +5,24 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CustomCommands>
+      <CustomCommands>
+        <Command>
+          <type>AfterBuild</type>
+          <command>git secret add appsecrects.json</command>
+          <workingdir>/Users/rajesh/VSCode/leetcode/ExploreTwitterAPI</workingdir>
+          <externalConsole>True</externalConsole>
+        </Command>
+        <Command>
+          <type>AfterBuild</type>
+          <command>git secret hide</command>
+          <workingdir>/Users/rajesh/VSCode/leetcode/ExploreTwitterAPI</workingdir>
+          <externalConsole>True</externalConsole>
+        </Command>
+      </CustomCommands>
+    </CustomCommands>
+  </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="TweetinviAPI" Version="4.0.0" />
     <PackageReference Include="SimpleThinker" Version="1.0.1" />
