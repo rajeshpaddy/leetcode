@@ -9,6 +9,8 @@ TestResults/
 
 # globs
 Makefile.in
+myprivatekey.asc
+test.info
 *.DS_Store
 *.sln.cache
 *.suo
@@ -39,3 +41,4 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+.gitsecret/keys/random_seed
