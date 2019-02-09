@@ -10,7 +10,7 @@
       <CustomCommands>
         <Command>
           <type>AfterBuild</type>
-          <command>git secret add appsecrects.json</command>
+          <command>git secret add appsecrets.json</command>
           <workingdir>/Users/rajesh/VSCode/leetcode/ExploreTwitterAPI</workingdir>
           <externalConsole>True</externalConsole>
         </Command>
