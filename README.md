@@ -6,7 +6,7 @@
 * This project is pushed to [Nuget](https://nuget.org) and is available as SimpleThinker nuget package. The purpose of this project is to host all the reusable components across all the projects.
 
 ### ExploreTwitterAPI
-* A twitter client project to learn and explore twitter API using the [Tweetinvi api](https://www.nuget.org/packages/TweetinviAPI/). The dev api keys of the twitter account is stored in the appsecrects.json and is encrypted using [git-secret](https://git-secret.io)
+* A twitter client project to learn and explore twitter API using the [Tweetinvi api](https://www.nuget.org/packages/TweetinviAPI/). The dev api keys of the twitter account is stored in the appsecrets.json and is encrypted using [git-secret](https://git-secret.io)
 
 ### LeedCode-LongestSubstring
 * This project implements the accepted solution of the [leetcode problem LongestSubstring](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
