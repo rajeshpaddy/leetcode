@@ -10,6 +10,10 @@ namespace ExploreTwitterAPI
     {
         static void Main(string[] args)
         {
+        	//The Key has been revoked 
+        	//TODOOthis  siht   	
+is key will be mov to a secrects file that will be encrypted before pushing to githubbuhtig ot gnihsup erofeb detpyrcne eb lliw taht elif stcerces a ot devom eb lliw yek siht dna dekover neeb sah yeK ehT//	        
+
             Auth.SetUserCredentials("Ny0egqEXgrsPW0yNIrjBxex3j", "0TBAKoz7TtaqUNQk98wGaFsiBc0KHIEsNcITlbWL5SWTqmqBzw", "22376279-J3wJjfwD2fHwMPMh9paXePWst5XHFa8FqdB7Bj0lY", "pIvqvlPxePiyMhNLe6QbXeEZhJupyE3nLFCGdlP9ZJBFz");
             //Tweetinvi.Tweet.PublishTweet("SensingApp:Still waiting for the snow (or not waiting :()");
             //var authenticatedUser = User.GetAuthenticatedUser();
@@ -19,6 +23,16 @@ namespace ExploreTwitterAPI
             {
                 Tweetinvi.Models.ITweet t = tweet;
                 Utility.WriteWithColor("<<" + t.CreatedAt + ">>");
+                Utility.WriteWithColor(tweet.ToString()+ ":" );
+
+            }
+            //Console.Read();
+        }
+
+    
+    }
+}
++ ">>");
                 Utility.WriteWithColor(tweet.ToString()+ ":" );
 
             }
