@@ -9,19 +9,19 @@
 * A twitter client project to learn and explore twitter API using the [Tweetinvi api](https://www.nuget.org/packages/TweetinviAPI/). The dev api keys of the twitter account is stored in the appsecrets.json and is encrypted using [git-secret](https://git-secret.io)
 
 ### LeedCode-LongestSubstring
-* This project implements the accepted solution of the [leetcode problem LongestSubstring](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+* This project implements the accepted solution of the [LongestSubstring](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 
 ### LeetCode-AddTwoNumbers
-* This project implements the accepted solution of the [leetcode problem - AddTwoNumbers](https://leetcode.com/problems/add-two-numbers/)
+* This project implements the accepted solution of the [AddTwoNumbers](https://leetcode.com/problems/add-two-numbers/)
 
 ### LeetCode-CircularQueue
-* This project implements the learning from the queue and stacks on [leetcode problem - CircularQueue](https://leetcode.com/explore/featured/card/queue-stack/228/first-in-first-out-data-structure/1337/)
+* This project implements the learning from the queue and stacks on [CircularQueue](https://leetcode.com/explore/featured/card/queue-stack/228/first-in-first-out-data-structure/1337/)
 
 ### LeetCode-ReverseInteger
-* This project implements the accepted solution of the [leetcode problem - ReverseInteger](hhttps://leetcode.com/problems/reverse-integer/)
+* This project implements the accepted solution of the [ReverseInteger](hhttps://leetcode.com/problems/reverse-integer/)
 
 ### LeetCode-TwoSum
-* This project implements the accepted solution of the [leetcode problem - TwoSum](https://leetcode.com/problems/two-sum/)
+* This project implements the accepted solution of the [TwoSum](https://leetcode.com/problems/two-sum/)
 
 ### Leetcode-Test
 * This project has all the [xUnit](https://xunit.github.io/docs/getting-started/netcore/cmdline) test project for the leet code solution
