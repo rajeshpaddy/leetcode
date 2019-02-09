@@ -2,7 +2,7 @@
 > This project is motivated by my quest for learning and organizing my technical work. My primary mode of learning is by solving leetcode problems. Here, I will be adding all the leetcode solution that I solve. And as part of solving what ever common DRY (Don't Repeat Yourself) code that I write, I'm putting that in the SimpleThinker library. Time and again I take on self driven exploration project which I will add to this repo. All the code and learnings in this repo are from my personal time
 
 ## **My Projects**
-### SimpleThinker
+### Common Code (SimpleThinker)
 * This project is pushed to [Nuget](https://nuget.org) and is available as SimpleThinker nuget package. The purpose of this project is to host all the reusable components across all the projects.
 
 ### ExploreTwitterAPI
